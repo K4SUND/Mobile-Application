@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/pages/home_page_no_state.dart';
+import 'package:my_app/pages/home_page_with_state.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: MyHomePage(),
+      // home: MyHomePage(),
+      home: HomePageWithState(),
     );
   }
 }
